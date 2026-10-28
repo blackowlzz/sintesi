@@ -1,6 +1,5 @@
 /*
 !/.gitignore
-!/.github/
 !/gradle/
 !/gradlew
 !/gradlew.bat
@@ -9,6 +8,7 @@
 !/gradle.properties
 !/libs.versions.toml
 !/LICENSE
+!/README.md
 !/NOTICE
 !/docs/
 !/api/
