@@ -1,0 +1,106 @@
+language: en
+gate:
+  table-size-log2: 16
+  global-burst: 2000
+  global-per-second: 1000
+  subnet-burst: 8
+  subnet-per-second: 3
+  max-concurrent-per-subnet: 6
+  status-burst: 2000
+  status-per-second: 1000
+  max-limbo-sessions: 5000
+  status-cache: true
+  cached-status-burst: 10000
+  cached-status-per-second: 5000
+  queue-size: 10000
+  queue-seconds: 15
+flood-block:
+  mode: during-attack
+  connections: 30
+  window-seconds: 5
+  minutes: 30
+  notice-interval-seconds: 2
+  allow-verified-players: false
+attack:
+  window-seconds: 4
+  elevated-rate: 40
+  attack-rate: 120
+  cooldown-seconds: 30
+protocol:
+  min: 47
+  max: 777
+  required-hostnames: []
+  blocked: []
+verification:
+  verified-lifetime-hours: 72
+  timeout-seconds: 20
+  allow-unsupported-protocols: false
+  transfer: true
+  max-sessions-per-address: 1
+  max-online-per-address: 3
+  mode: always
+  captcha-on-fall-failure: false
+  valid-name-regex: "[A-Za-z0-9_]{3,16}"
+  valid-brand-regex: "[ -~§]+"
+  transfer-host: ""
+  transfer-port: 0
+  protocol-checks: true
+  vehicle-check: true
+  visible-platform: false
+  captcha: during-attack
+  captcha-seconds: 60
+  captcha-attempts: 3
+  physics-tolerance: 0.0000001
+  compression-threshold: 256
+  blacklist-threshold: 2
+  blacklist-minutes: 10
+logging:
+  failure-reasons: false
+  player-addresses: true
+bedrock:
+  exempt-local-connections: true
+  trusted-geyser-addresses: []
+clusters:
+  enabled: true
+  min-sessions: 15
+  factor: 5
+  minutes: 10
+vpn-block:
+  mode: during-attack
+  sources:
+    - "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt"
+    - "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv4.txt"
+    - "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv6.txt"
+    - "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/datacenter/ipv6.txt"
+    - "https://check.torproject.org/torbulkexitlist"
+  refresh-hours: 24
+  blocked-ranges: []
+  allowed-ranges: []
+proxy-protocol:
+  trusted-addresses: []
+metrics:
+  enabled: false
+  bind: 127.0.0.1
+  port: 9225
+  token: ""
+webhook:
+  url: ""
+  username: Sintesi
+  on-attack-start: true
+  on-attack-end: true
+update-checker:
+  enabled: true
+  interval-hours: 6
+  channel: auto
+storage:
+  file: verified.bin
+  type: file
+  mysql:
+    host: 127.0.0.1
+    port: 3306
+    database: sintesi
+    username: sintesi
+    password: ""
+    table-prefix: sintesi_
+    ssl-mode: disable
+    sync-seconds: 5

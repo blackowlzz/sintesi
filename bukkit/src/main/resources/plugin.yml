@@ -1,0 +1,12 @@
+name: Sintesi
+main: dev.sintesi.paper.SintesiPaper
+version: 1.0.0
+author: Sintesi
+description: Antibot protection
+api-version: '1.20'
+load: STARTUP
+folia-supported: true
+commands:
+  sintesi:
+    description: Sintesi antibot commands
+    aliases: [antibot]

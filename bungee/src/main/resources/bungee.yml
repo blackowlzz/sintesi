@@ -1,0 +1,5 @@
+name: Sintesi
+main: dev.sintesi.bungee.SintesiBungee
+version: 1.0.0
+author: Sintesi
+description: Antibot protection

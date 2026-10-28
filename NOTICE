@@ -1,0 +1,67 @@
+Sintesi
+Copyright (C) 2026 blackowlzz
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3 of the License, with the additional terms below.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program (the LICENSE file). If not, see <https://www.gnu.org/licenses/>.
+
+Additional terms under section 7 of the GNU General Public License version 3
+
+These terms apply to every file of Sintesi, in source and compiled form, and to
+every work based on it.
+
+1. Attribution, section 7(b). Anyone who conveys Sintesi or a work based on it
+   must keep this NOTICE file, including the copyright notice above, and must
+   keep in its documentation or description the attribution "Based on Sintesi
+   by blackowlzz" (for an unmodified copy, "Sintesi by blackowlzz").
+
+2. Modified versions, section 7(c). A modified version must be marked as
+   different from the original: it must state that it was changed and when,
+   it must carry a name that does not contain "Sintesi" in its plugin
+   descriptors, commands and messages, and it must not be presented as the
+   original Sintesi or as made or endorsed by its author.
+
+3. Names and logos, section 7(e). No right is granted under trademark law or
+   otherwise to use the name "Sintesi", the Sintesi logo or the author name
+   "blackowlzz" to identify any product or service, except to state truthfully
+   that a work is based on Sintesi as required by term 1.
+
+Sintesi includes the following third party components, which remain under their
+own licenses.
+
+FastStats Java SDK (dev.faststats.metrics core, config, velocity, bungeecord and
+bukkit 0.31.0), included in the plugin jar under dev.sintesi.libs.faststats.
+https://github.com/faststats-dev/faststats-java
+
+MIT License
+
+Copyright (c) 2025 FastStats
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Inter Tight font (banner/fonts/inter-tight-latin.woff2), used only for the
+banner, not included in the plugin jar. Licensed under the SIL Open Font
+License 1.1, see banner/fonts/OFL.txt.

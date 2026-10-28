@@ -1,0 +1,34 @@
+[versions]
+netty = "4.1.118.Final"
+fastutil = "8.5.15"
+velocity = "3.4.0-SNAPSHOT"
+bungeecord = "1.21-R0.4"
+paper-api = "1.20.6-R0.1-SNAPSHOT"
+shadow = "9.3.0"
+junit = "5.11.3"
+junit-launcher = "1.11.3"
+h2 = "2.3.232"
+faststats = "0.31.0"
+gson = "2.11.0"
+
+[libraries]
+netty-buffer = { module = "io.netty:netty-buffer", version.ref = "netty" }
+netty-transport = { module = "io.netty:netty-transport", version.ref = "netty" }
+netty-codec = { module = "io.netty:netty-codec", version.ref = "netty" }
+netty-handler = { module = "io.netty:netty-handler", version.ref = "netty" }
+netty-codec-haproxy = { module = "io.netty:netty-codec-haproxy", version.ref = "netty" }
+fastutil = { module = "it.unimi.dsi:fastutil", version.ref = "fastutil" }
+velocity-api = { module = "com.velocitypowered:velocity-api", version.ref = "velocity" }
+bungeecord-api = { module = "net.md-5:bungeecord-api", version.ref = "bungeecord" }
+paper-api = { module = "io.papermc.paper:paper-api", version.ref = "paper-api" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-launcher" }
+h2 = { module = "com.h2database:h2", version.ref = "h2" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+faststats-core = { module = "dev.faststats.metrics:core", version.ref = "faststats" }
+faststats-velocity = { module = "dev.faststats.metrics:velocity", version.ref = "faststats" }
+faststats-bungeecord = { module = "dev.faststats.metrics:bungeecord", version.ref = "faststats" }
+faststats-bukkit = { module = "dev.faststats.metrics:bukkit", version.ref = "faststats" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
