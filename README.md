@@ -1,1 +1,1 @@
-<img width="1000" height="3531" alt="sintesi-banner" src="https://github.com/user-attachments/assets/674da585-1b4e-486a-bdde-67adb3de3806" />
+<img width="2000" height="7062" alt="sintesi-banner@2x" src="https://github.com/user-attachments/assets/c3e048fd-ce99-4abe-a266-def5cb0fbf31" />
